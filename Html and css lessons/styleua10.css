@@ -1,0 +1,38 @@
+body {
+    background-color: aqua;
+}
+
+.textonpage {
+    background: linear-gradient(rgb(0, 17, 204), #017,rgb(9, 29, 142), rgb(34, 60, 205));
+    border-radius: 6px;
+    padding: 24px 15px;
+
+}
+p{
+    color: azure;
+    text-shadow: #FC0 2px 0 10px;
+}
+code {
+    color: green;
+}
+.if {
+    margin: 19px;
+}
+.elif {
+    margin: 19px;
+}
+h1{
+    color: azure;
+    text-shadow: #FC0 2px 0 10px;
+}
+header {    
+    background-color: black;
+    margin: 0 1.5% 24px 1.5%;
+    border-radius: 6px;
+    padding: 24px 15px;
+}
+button {
+    position: absolute;
+    background: linear-gradient(#117204, #11791f, #198f29, #22ae35);
+    width: 50px;
+}

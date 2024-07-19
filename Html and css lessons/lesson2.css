@@ -1,0 +1,19 @@
+body
+{
+    text-align: center;
+    background-color: darkslategray;
+    font-style: italic;
+    text-shadow: 0.7px 0.7px white;
+}
+button
+{
+    border-color: black;
+}
+.input_login
+{
+    border-color: black;
+}
+.input_password
+{
+    border-color: black;
+}

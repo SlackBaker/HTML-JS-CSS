@@ -1,0 +1,77 @@
+body {
+    background-color: burlywood;
+}
+h1 {
+    text-align: center;
+}
+#ifd {
+    color: rgb(13, 52, 135);
+    text-align: left;
+}
+#dough {
+    text-align: left;
+    list-style-type: circle;
+    color:green
+}
+#iff {
+    text-align: left;
+    color: rgb(175, 99, 45);
+}
+#filling {
+    list-style-type: circle;
+    text-align: left;
+    color: darkmagenta;
+}
+#frv {
+    text-align: left;
+    color:darkolivegreen; 
+}
+#ffvarenyk {
+    text-align: left;
+    list-style-type: circle;
+    color: red;
+}
+#stmd {
+    text-align: left;
+    color: darkslategrey;
+}
+#stmdough {
+    list-style-type: lower-latin;
+    color: gray;
+}
+#stmf {
+    color: lawngreen;
+    text-align: left;
+}
+#fillings {
+    text-align: left;
+    color:lightslategrey;
+    list-style-type: upper-roman;
+}
+#smv {
+    text-align: left;
+    color: forestgreen;
+}
+#Smvarenik {
+    text-align: left;
+    list-style-type: upper-latin;
+    color: rgb(66, 51, 14);
+}
+#stmffv {
+    color:mintcream;
+    text-align: left;
+}
+#Stmfforvarenyk {
+    color: rgb(158, 102, 95);
+    list-style: upper-roman;
+    text-align: left;
+} 
+img {
+    display: block;
+    height: 200px;
+    width: 300px;
+    border : 10px outset teal;
+}
+div {
+    border: 10px dashed black;
+}

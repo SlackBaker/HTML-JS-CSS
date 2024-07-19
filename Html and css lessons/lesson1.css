@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(189, 195, 198);
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px #070707;
+    animation: MySlide;
+    animation-duration: 5s;
+    font-style: italic;
+}
+
+#text
+{
+    border-width: 6px;
+    border-style: solid dashed solid dashed;
+    border-color: #27b050 #f3e5f5 #34e081 #f3e5f5;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px #070707;
+    animation: MySlide;
+    animation-duration: 5s;
+    font-style: italic;
+    
+}
+
+@keyframes MySlide{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}

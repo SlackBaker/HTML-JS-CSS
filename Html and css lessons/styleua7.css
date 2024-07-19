@@ -1,0 +1,70 @@
+body{
+    background-color: blanchedalmond;
+}
+div {
+    border-style: dashed;
+    border-style: dotted;
+    border-style: double;
+    border-style: groove;
+    border-style: hidden;
+    border-style: inherit;
+    border-style: initial;
+    border-style: inset;
+    border-style: outset;
+    border-style: none;
+    border-style: ridge;
+    border-style: solid;
+    border-style: unset;
+}
+form{
+    border: 1px solid rgb(177, 162, 162);
+    border-radius: 7px;
+    width:240px;
+    font: 14px/1.4, "Helvetica Neue", Helvetica, Arial;
+}
+fieldset{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+input {
+    border-radius: 5;
+    margin: 0;
+}
+.account-info{
+    padding: 10px 10px 0px 10px; 
+}
+.account-info label{
+    color: rgb(109, 109, 2);
+    display: block;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.account-info input{
+    background: #fff;
+    border: 1px solid lightgoldenrodyellow;
+    color: rgb(0, 36, 90);
+    margin-top: 8px;
+    width: 100%;
+    height: 14px;
+}
+.account-action{
+    background:rgb(86, 38, 109);
+    border-top: 1px solid rgb(105, 1, 93);
+    padding: 10px;
+}
+.account-action .btn{
+    background: linear-gradient(#008cfe, #4297dc, #cde354, #d9ff00);
+    color: rgb(40, 106, 48);
+    border: 0;
+    font-weight: bold;
+    float: left;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+.account-action label{
+    color: rgb(0, 255, 76);
+    font-size: 12px;
+    float: left;
+    margin: 10px 0 0 20px;
+}

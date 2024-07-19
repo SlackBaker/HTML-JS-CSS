@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient(darkblue, rgb(5, 5, 123), rgb(15, 15, 141), rgb(15, 15, 160), rgb(28, 28, 172), rgb(36, 36, 204));
+    color:aliceblue;
+}
+div.main-body {
+    display: grid;
+    grid-template-columns: minmax(300px, auto)1fr;
+    grid-template-areas: "navbar mainContent";
+    grid-gap: 20px;
+}
+nav#navbar {
+    grid-area: navbar;
+    position: fixed;
+}
+nav#navbar a {
+    display: block;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px 0;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+main#main-doc {
+    grid-area: mainContent;
+    background-color: beige;
+}
+header {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+code {
+    display: block;
+    background-color: black;
+    color: green;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 323px;
+}
+p{
+    margin-left: 323px;
+    background-color: rgb(10, 67, 5);
+    border-radius: 10px;
+}
+.h {
+    margin-left: 340px;
+}
+.class {
+    margin-left: 21px;
+}
+.a {
+    margin-left: 21px;
+}
+.main {
+    margin-left: 61px;
+}
+.b {
+    margin-left: 61px;
+}
+.console {
+    margin-left: 101px;
+}
+.c {
+    margin-left: 61px;
+}
+.d {
+    margin-left: 21px;
+}
+.Intheration{
+    margin-left: 240px;
+}
+.Polymorphism{
+    margin-left: 240px;
+}
+.Abstraction {
+    margin-left: 240px;
+}
+.Encasulation{
+    margin-left: 240px;
+}

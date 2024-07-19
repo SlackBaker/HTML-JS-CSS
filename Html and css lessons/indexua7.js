@@ -1,0 +1,1 @@
+let doYouWantToOpen = confirm("Do you want to open this cite?")

@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(183, 179, 179);
+}
+div {
+    padding: 10px;
+    border-style: solid;
+    border-style: dashed;
+    border-style: dotted;
+    border-style: double;
+    border-style: ridge;
+    border-style: groove;
+    border-style: inset;
+    border-style: outset;
+    border-width: 10px;
+    border-color: blue;
+    border-radius: 10px;
+}
+h1 {
+    color: azure;
+    text-shadow:
+      1px 1px 0 black,
+      -1px 1px 0 black,
+      1px -1px 0 black,
+      -1px 1px 0 black;
+}
+p {
+    color: azure;
+    text-shadow:
+      1px 1px 0 black,
+      -1px 1px 0 black,
+      1px -1px 0 black,
+      -1px 1px 0 black;
+}
+caption {
+    color: azure;
+    text-shadow:
+      1px 1px 0 black,
+      -1px 1px 0 black,
+      1px -1px 0 black,
+      -1px 1px 0 black;
+}
+table {
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    border: 2px solid black;
+}
+tbody tr:nth-child(even) {
+    background: rgb(8, 70, 9);
+}
+.name {
+    color: azure;
+    text-shadow:
+      1px 1px 0 black,
+      -1px 1px 0 black,
+      1px -1px 0 black,
+      -1px 1px 0 black;
+}
+.losses {
+    color: azure;
+    text-align: center;
+    text-shadow:
+      1px 1px 0 black,
+      -1px 1px 0 black,
+      1px -1px 0 black,
+      -1px 1px 0 black;
+}
+tfoot {
+    color: azure;
+    text-shadow:
+      1px 1px 0 black,
+      -1px 1px 0 black,
+      1px -1px 0 black,
+      -1px 1px 0 black;
+}

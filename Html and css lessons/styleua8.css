@@ -1,0 +1,15 @@
+html {
+    height: 900px;
+}
+.main-element {
+    position: fixed;
+    background-color: yellow;
+    padding: 10px;
+    left: 10px;
+    bottom: 10px;
+}
+.sibling-element{
+    padding: 10px;
+    background-color: lightgrey;
+
+}

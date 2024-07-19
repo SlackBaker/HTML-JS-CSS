@@ -1,0 +1,14 @@
+div {
+    padding: 5px;
+    border-style: solid;
+    border-style: dashed;
+    border-style: dotted;
+    border-style: double;
+    border-style: ridge;
+    border-style: groove;
+    border-style: inset;
+    border-style: outset;
+    border-width: 10px;
+    border-color: blue;
+    border-radius: 10px;
+}

@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(230, 188, 132);
+    color: black;
+}
+h1 {
+    text-align: center;
+}
+#ingre {
+    text-align: left;
+    color:cornflowerblue
+}
+#step {
+    text-align: left;
+    color :orchid
+}
+ul {
+    text-align: left;
+    list-style-type: circle;
+    color: chartreuse;
+}
+ol {
+    text-align: left;
+    list-style-type: lower-alpha;
+    color: chartreuse;
+}
+img {
+    display: block;
+    margin-left: 50%;
+    margin-right: 50%;
+    width: 35%;
+    height: 35%;
+    padding: 10px;
+    background-color: black;
+    border: 10px solid olive;
+}
