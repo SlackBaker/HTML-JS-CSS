@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Слайдер зображень на jQuery</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f0f0f0;
+      text-align: center;
+      padding: 30px;
+    }
+
+    #slider-container {
+      position: relative;
+      width: 600px;
+      height: 400px;
+      margin: 0 auto;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    .slide {
+      display: none;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .slide.active {
+      display: block;
+    }
+
+    .controls {
+      margin-top: 20px;
+    }
+
+    .controls button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      margin: 0 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #007bff;
+      color: white;
+    }
+
+    .controls button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Слайдер зображень</h1>
+
+  <div id="slider-container">
+    <img src="https://picsum.photos/id/1018/600/400" class="slide active">
+    <img src="https://picsum.photos/id/1015/600/400" class="slide">
+    <img src="https://picsum.photos/id/1016/600/400" class="slide">
+  </div>
+
+  <div class="controls">
+    <button id="prev">← Попереднє</button>
+    <button id="next">Наступне →</button>
+  </div>
+
+  <script>
+    $(document).ready(function(){
+      let current = 0;
+      let slides = $(".slide");
+
+      function showSlide(index) {
+        slides.removeClass("active").fadeOut(500);
+        slides.eq(index).addClass("active").fadeIn(500);
+      }
+
+      $("#next").click(function(){
+        current = (current + 1) % slides.length;
+        showSlide(current);
+      });
+
+      $("#prev").click(function(){
+        current = (current - 1 + slides.length) % slides.length;
+        showSlide(current);
+      });
+
+      // Автоматичне перемикання (необов'язково)
+      setInterval(function(){
+        $("#next").click();
+      }, 5000); // змінюється кожні 5 секунд
+    });
+  </script>
+
+</body>
+</html>
